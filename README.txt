@@ -54,7 +54,9 @@ Inside the virtual environment, install the following packages:
 pip3 install torch-pruning optimum-quanto
 ```
 
-### 6. Modify and Run the Script
+### 6. Train your model on GPU and save the .pth file to the folder containing venv in the raspberry pi.
+
+### 7. Modify and Run the Script
 
 1. Make changes to your script if required (hyperparameters for pruning will vary from model to model).
 2. Set the correct model path in your code.
